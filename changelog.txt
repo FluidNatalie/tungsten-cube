@@ -1,10 +1,10 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.0
-Date: 13-01-2026
-  Features:
-    - Cube for all your cube needs
-
 Version: 2.0.0
 Date: 13-01-2026
   Features:
     - Get an achievement for making a cube. And a second achievement for making a legendary one!
+
+Version: 1.0.0
+Date: 13-01-2026
+  Features:
+    - Cube for all your cube needs
