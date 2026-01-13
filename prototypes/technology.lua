@@ -6,12 +6,12 @@
 		icon = "__tungsten-cube__/icons/tungsten_cube.png",
         enabled = true,
 		essential = true,
-		prerequisites = {"tungsten-carbide"},
+		prerequisites = {"tungsten-steel"},
 		effects = 
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "cube-recipe"
+				recipe = "tungsten-cube-recipe"
 			}
 		},
 		unit = 
