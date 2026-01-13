@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.0.1
-Date: ????-??-??
+Version: 1.0.0
+Date: 13-01-2026
   Features:
-    - Initial release.
+    - Cube for all your cube needs

@@ -1,11 +1,11 @@
 {
-  "name": "_Template",
-  "version": "0.0.1",
-  "title": "Template",
-  "description": "",
-  "author": "",
-  "contact": "",
+  "name": "tungsten-cube",
+  "version": "1.0.0",
+  "title": "Tungsten Cube",
+  "description": "PRAISE BE THE CUBE",
+  "author": "FluidNatalie",
+  "contact": "https://discord.gg/VuVhYUBbWE",
   "factorio_version": "2.0",
-  "space_travel_required": false,
-  "dependencies": ["base >= 2.0.72"]
+  "space_travel_required": true,
+  "dependencies": ["base >= 2.0.72", "space-age >= 2.0.72"]
 }
