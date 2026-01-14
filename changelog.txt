@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+Date: 14-01-2026
+  Features:
+    - You can now throw the cube! Instantly kill your enemies with the power of the cube!
+    - You can now listen to a review of the cube in the files!
+    - WOLFRAM WOLFRAM WOLFRAM WÜRFEL!
+
+---------------------------------------------------------------------------------------------------
 Version: 2.1.1
 Date: 14-01-2026
   Locale:
