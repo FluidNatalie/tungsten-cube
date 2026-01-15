@@ -1,5 +1,4 @@
-
-    data:extend({
+data:extend({
  	{
  		type = "recipe",
  		name = "tungsten-cube-recipe",
@@ -30,7 +29,7 @@
  		},
  		hide_from_signal_gui = false,
  		auto_recycle = true,
-        enabled = true --set to false once a tech has been added
+        enabled = false
     },
 	{
  		type = "recipe",
@@ -46,7 +45,7 @@
  		},
  		hide_from_signal_gui = false,
  		auto_recycle = true,
-        enabled = true --set to false once a tech has been added
+        enabled = false
     },
 	{
  		type = "recipe",
@@ -62,7 +61,7 @@
  		},
  		hide_from_signal_gui = false,
  		auto_recycle = true,
-        enabled = true --set to false once a tech has been added
+        enabled = false
     },
 	{
  		type = "recipe",
@@ -78,10 +77,10 @@
  		},
  		hide_from_signal_gui = false,
  		auto_recycle = true,
-        enabled = true --set to false once a tech has been added
+        enabled = false
     },
 	{
- 		type = "recipe",
+ 		type = "recipe", 
  		name = "iron-cube-recipe",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
@@ -94,7 +93,7 @@
  		},
  		hide_from_signal_gui = false,
  		auto_recycle = true,
-        enabled = true --set to false once a tech has been added
+        enabled = false
     },
 	{
  		type = "recipe",
@@ -113,4 +112,3 @@
         enabled = true --set to false once a tech has been added
     },
 })
-

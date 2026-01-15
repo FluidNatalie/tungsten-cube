@@ -1,4 +1,4 @@
-	data:extend({
+data:extend({
 		{
 			type = "item-group",
 			name = "cubes-group",
@@ -75,6 +75,11 @@
 		type = "item", --turn this into an insanely strong fuel
  		name = "carbon-cube",
 		subgroup = "cubes-subgroup",
+		fuel_category = "chemical",
+		fuel_value = "1000MJ",
+		fuel_acceleration_multiplier = 3,
+		fuel_top_speed_multiplier = 1.5,
+		fuel_emissions_multiplier = 0.5,
 		weight = 500*kg,
 		icon = "__tungsten-cube__/icons/carbon_cube.png",
 		stack_size = 1,
@@ -109,4 +114,3 @@
  		auto_recycle = true
 	}
 })
-

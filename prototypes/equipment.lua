@@ -1,5 +1,4 @@
-
-    data:extend({
+data:extend({
  	{
  		type = "inventory-bonus-equipment",
  		name = "tungsten-cube",
@@ -15,5 +14,5 @@
 		},
 		categories = {"armor"},
 		take_result = "tungsten-cube"
-    }})
-
+    }
+})

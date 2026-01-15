@@ -1,5 +1,4 @@
-
-    data:extend({
+data:extend({
  	{
  		type = "produce-achievement",
  		name = "common-tungsten-cube",
@@ -25,4 +24,3 @@
 		}
     },
 })
-
