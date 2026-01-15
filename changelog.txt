@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 4.0.0
+Date: 15-01-2026
+  Features:
+    - There are now more cubes that can be crafted! 
+    - Who said that cubisum is monotheistic religion? Could it not be that there are many cubes worth worshiping and the tungstne cube is the highest cube amoung them?
+  Locale:
+    - The german language is now out of date.
+    - I will revinvent the german language in a later patch.
+
+---------------------------------------------------------------------------------------------------
 Version: 3.0.0
 Date: 14-01-2026
   Features:
