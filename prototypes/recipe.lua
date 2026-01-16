@@ -109,6 +109,6 @@ data:extend({
  		},
  		hide_from_signal_gui = false,
  		auto_recycle = true,
-        enabled = true --set to false once a tech has been added
+        enabled = false
     },
 })
