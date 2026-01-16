@@ -26,7 +26,8 @@ data:extend({
 	{
  		type = "technology",
  		name = "iron-and-copper-cube-unlock",
-		icon = "__tungsten-cube__/icons/iron_cube.png",
+		icon = "__tungsten-cube__/icons/cubes_group.png",
+		icon_size = 128,
         enabled = true,
 		essential = true,
 		prerequisites = {"automation-science-pack"},

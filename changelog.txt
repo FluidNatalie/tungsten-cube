@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 5.0.0
+Date: 16-01-2026
+  Features:
+    - We figured out how to research the cubes!
+  Locale:
+    - The german language is still out of date.
+    - I was too busy learning ÖGS today to reinvent german.
+  Bugfixes:
+    - For some reason all cubes weigh the same as the tungsten cube. This is false!
+    - Also we keep halicinating the term "Solid Fuel" when it should obviously be Hydrocarbon Cube
+
+---------------------------------------------------------------------------------------------------
 Version: 4.0.0
 Date: 15-01-2026
   Features:
