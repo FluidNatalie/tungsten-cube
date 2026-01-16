@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 5.1.0
+Date: 16-01-2026
+  Features:
+    - You can now shoot iron cubes at biters! You can now replace your "rods from god" idea with cubes.
+    - The 14th of January is retroactively "Day of Cube" because that is my mum's birthday.
+  Locale:
+    - There is debate as to wether the german language was a good idea on my part. I say ehhhh.
+    - Added descriptions to the cubes in english, so that's fun.
+  Bugfixes:
+    - We do not talk about the shadow cube or its alpha values.
+    - Still don't trust people to drop the uranium cube.
+    - There are achievements that can't be unlocked because they have yet to exist.
+
+---------------------------------------------------------------------------------------------------
 Version: 5.0.0
 Date: 16-01-2026
   Features:
@@ -46,9 +60,11 @@ Version: 2.0.0
 Date: 13-01-2026
   Features:
     - Get an achievement for making a cube. And a second achievement for making a legendary one!
+    - Date in changelog wrong, should be 14th, not 13th.
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 13-01-2026
   Features:
     - Cube for all your cube needs.
+    - This mod first released on the 14th not the 13th.
