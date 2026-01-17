@@ -111,4 +111,38 @@ data:extend({
  		auto_recycle = true,
         enabled = false
     },
+	{
+ 		type = "recipe",
+ 		name = "plastic-cube-recipe",
+		subgroup = "cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 600,
+ 		ingredients = {
+ 			{ type = "item", name = "plastic-bar", amount = 1000 }, 
+ 		},
+ 		results = {
+ 			{ type = "item", name = "plastic-cube", amount = 1 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
+    },
+	{
+ 		type = "recipe",
+ 		name = "science-cube-recipe",
+		subgroup = "cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 600,
+ 		ingredients = {
+ 			{ type = "item", name = "automation-science-pack", amount = 100 },
+			{ type = "item", name = "logistic-science-pack", amount = 100 },
+			{ type = "item", name = "chemical-science-pack", amount = 100 }, 
+ 		},
+ 		results = {
+ 			{ type = "item", name = "science-cube", amount = 1 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
+    }
 })

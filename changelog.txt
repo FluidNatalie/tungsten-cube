@@ -1,4 +1,32 @@
 ---------------------------------------------------------------------------------------------------
+Version: 5.1.2
+Date: 17-01-2026
+  Features:
+    - Added a cube discount tech, get more cube per cube! Add the science cube to help and getting the discount.
+    - As of writing, there has yet to be molten plastic compatiblity.
+  Locale:
+    - Even less german than before?
+    - More english
+  Bugfixes:
+    - The science cube has a placeholder graphic instead of a proper graphic, don't tell me I know.
+    - I am going to eat some lunch but I do want to add more achievements later today.
+
+---------------------------------------------------------------------------------------------------
+Version: 5.1.1
+Date: 17-01-2026
+  Features:
+    - Added the plastic cube! Someone suggested calling it a "dice" but no it is a cube.
+    - This patch will be compatable with Powerscooter's Molten Plastic mod. Yipppee!
+  Locale:
+    - Immer noch kein Deutsch.
+    - But the plastic cube is very popular with the english language people.
+  Bugfixes:
+    - The plastic cube does not look like sugar or like that other sticky thing.
+    - Uranium cube dropping coming eventually.
+    - The achievements have yet to be added but I do want to add them!
+    - New cube productivity tech exists but is commented out.
+
+---------------------------------------------------------------------------------------------------
 Version: 5.1.0
 Date: 16-01-2026
   Features:

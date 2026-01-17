@@ -1,21 +1,23 @@
 local sounds = require("__base__.prototypes.entity.sounds")
 local item_sounds = require("__base__.prototypes.item_sounds")
 
+table.insert(data.raw.lab["lab"].inputs, "science-cube")
+
 
 data:extend({
-		{
-			type = "item-group",
-			name = "cubes-group",
-			icon = "__tungsten-cube__/icons/cubes_group.png",
-			icon_size = 128,
-			order = "e1[cubes]"
-		},
-		{
-			type = "item-subgroup",
-			name = "cubes-subgroup",
-			group = "cubes-group"
-		},
-		{
+	{ ------------------------------------------------------------------------Item Group
+		type = "item-group",
+		name = "cubes-group",
+		icon = "__tungsten-cube__/icons/cubes_group.png",
+		icon_size = 128,
+		order = "e1[cubes]"
+	},
+	{
+		type = "item-subgroup",
+		name = "cubes-subgroup",
+		group = "cubes-group"
+	},
+	{ ------------------------------------------------------------------------Items
  		type = "capsule",
  		name = "tungsten-cube",
 		subgroup = "cubes-subgroup",
@@ -139,5 +141,28 @@ data:extend({
 		icon = "__tungsten-cube__/icons/uranium235_cube.png",
 		stack_size = 1,
  		auto_recycle = true
+	},
+	{
+		type = "item", 
+ 		name = "plastic-cube",
+		subgroup = "cubes-subgroup",
+		weight = 500*kg,
+		icon = "__tungsten-cube__/icons/plastic_cube.png",
+		icon_size = 64,
+		stack_size = 1,
+ 		auto_recycle = true
+	},
+	{
+		type = "tool", 
+ 		name = "science-cube",
+		subgroup = "cubes-subgroup",
+		weight = 1000*kg,
+		durability = 1,
+		icon = "__tungsten-cube__/icons/placeholder_cube.png",
+		icon_size = 64,
+		stack_size = 1,
+ 		auto_recycle = true
 	}
+
+
 })
