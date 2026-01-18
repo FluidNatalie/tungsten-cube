@@ -1,7 +1,7 @@
 data:extend({
  	{
  		type = "recipe",
- 		name = "tungsten-cube-recipe",
+ 		name = "tungsten-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 3600,
@@ -17,7 +17,7 @@ data:extend({
     },
 	{
  		type = "recipe",
- 		name = "biter-egg-cube-recipe",
+ 		name = "biter-egg-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 300,
@@ -33,7 +33,7 @@ data:extend({
     },
 	{
  		type = "recipe",
- 		name = "carbon-cube-recipe",
+ 		name = "carbon-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 300,
@@ -49,7 +49,7 @@ data:extend({
     },
 	{
  		type = "recipe",
- 		name = "copper-cube-recipe",
+ 		name = "copper-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 600,
@@ -65,7 +65,7 @@ data:extend({
     },
 	{
  		type = "recipe",
- 		name = "holmium-cube-recipe",
+ 		name = "holmium-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 1800,
@@ -81,7 +81,7 @@ data:extend({
     },
 	{
  		type = "recipe", 
- 		name = "iron-cube-recipe",
+ 		name = "iron-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 600,
@@ -97,7 +97,7 @@ data:extend({
     },
 	{
  		type = "recipe",
- 		name = "u-235-cube-recipe",
+ 		name = "u-235-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 600,
@@ -113,7 +113,7 @@ data:extend({
     },
 	{
  		type = "recipe",
- 		name = "plastic-cube-recipe",
+ 		name = "plastic-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 600,
@@ -129,7 +129,7 @@ data:extend({
     },
 	{
  		type = "recipe",
- 		name = "science-cube-recipe",
+ 		name = "science-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 600,

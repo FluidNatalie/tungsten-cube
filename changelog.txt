@@ -1,4 +1,26 @@
 ---------------------------------------------------------------------------------------------------
+Version: 6.0.1
+Date: 18-01-2026
+  Features:
+    - Internal recipes have been renamed.
+    - MOLTEN PLASTIC BABY!
+  Locale:
+    - Wie geht's?
+    - An equal amount of English as before
+  Bugfixes:
+    - Updates may or may not be coming out today.
+---------------------------------------------------------------------------------------------------
+Version: 6.0.0
+Date: 17-01-2026
+  Features:
+    - Added 2 achivements!
+    - I am not in a funny mod right now, sorry.
+  Locale:
+    - Bit to tired to work on german, will reinvent german tommorow.
+    - More english
+  Bugfixes:
+    - Hopefully 7.0.0 includes more cubes. But right now I am tired, so this is the last update for today.
+---------------------------------------------------------------------------------------------------
 Version: 5.1.2
 Date: 17-01-2026
   Features:

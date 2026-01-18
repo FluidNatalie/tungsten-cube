@@ -38,7 +38,7 @@ data:extend({
 		range = 20,
 		cooldown = 30,
 		activation_type = "throw",
-		damage_modifier = 100000000,
+		damage_modifier = 1,
 		ammo_category = "capsule",
 		ammo_type = 
 		{
