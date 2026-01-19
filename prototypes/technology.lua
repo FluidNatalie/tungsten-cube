@@ -13,47 +13,57 @@ data:extend({
 		{
 			{
 				type = "change-recipe-productivity",
-				recipe = "science-cube-recipe",
+				recipe = "science-cube",
 				change = 0.1
 			},
 			{
 				type = "change-recipe-productivity",
-				recipe = "biter-egg-cube-recipe",
+				recipe = "biter-egg-cube",
 				change = 0.1
 			},
 			{
 				type = "change-recipe-productivity",
-				recipe = "carbon-cube-recipe",
+				recipe = "carbon-cube",
 				change = 0.1
 			},
 			{
 				type = "change-recipe-productivity",
-				recipe = "copper-cube-recipe",
+				recipe = "copper-cube",
 				change = 0.1
 			},
 			{
 				type = "change-recipe-productivity",
-				recipe = "holmium-cube-recipe",
+				recipe = "holmium-cube",
 				change = 0.1
 			},
 			{
 				type = "change-recipe-productivity",
-				recipe = "iron-cube-recipe",
+				recipe = "iron-cube",
 				change = 0.1
 			},
 			{
 				type = "change-recipe-productivity",
-				recipe = "plastic-cube-recipe",
+				recipe = "plastic-cube",
 				change = 0.1
 			},
 			{
 				type = "change-recipe-productivity",
-				recipe = "tungsten-cube-recipe",
+				recipe = "tungsten-cube",
 				change = 0.1
 			},
 			{
 				type = "change-recipe-productivity",
-				recipe = "u-235-cube-recipe",
+				recipe = "u-235-cube",
+				change = 0.1
+			},
+			{
+				type = "change-recipe-productivity",
+				recipe = "wube-cube",
+				change = 0.1
+			},
+			{
+				type = "change-recipe-productivity",
+				recipe = "spoilage-cube",
 				change = 0.1
 			}
 		},
@@ -75,7 +85,7 @@ data:extend({
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "tungsten-cube-recipe"
+				recipe = "tungsten-cube"
 			}
 		},
 		unit = 
@@ -100,15 +110,15 @@ data:extend({
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "iron-cube-recipe"
+				recipe = "iron-cube" 
+			},	
+			{
+				type = "unlock-recipe",
+				recipe = "copper-cube"
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "copper-cube-recipe"
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "science-cube-recipe"
+				recipe = "science-cube"
 			},
 		},
 		unit = 
@@ -129,7 +139,7 @@ data:extend({
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "carbon-cube-recipe"
+				recipe = "carbon-cube"
 			}
 		},
 		unit = 
@@ -152,7 +162,7 @@ data:extend({
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "holmium-cube-recipe"
+				recipe = "holmium-cube"
 			}
 		},
 		unit = 
@@ -177,7 +187,7 @@ data:extend({
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "biter-egg-cube-recipe"
+				recipe = "biter-egg-cube"
 			}
 		},
 		unit = 
@@ -203,7 +213,7 @@ data:extend({
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "u-235-cube-recipe"
+				recipe = "u-235-cube"
 			}
 		},
 		unit = 
@@ -227,7 +237,7 @@ data:extend({
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "plastic-cube-recipe"
+				recipe = "plastic-cube"
 			}
 		},
 		unit = 

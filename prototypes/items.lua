@@ -1,6 +1,7 @@
 local sounds = require("__base__.prototypes.entity.sounds")
 local item_sounds = require("__base__.prototypes.item_sounds")
 
+table.insert(data.raw.lab["lab"].inputs, "natalie-cube")
 table.insert(data.raw.lab["lab"].inputs, "science-cube")
 
 
@@ -160,6 +161,77 @@ data:extend({
 		durability = 1,
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
+		stack_size = 1,
+ 		auto_recycle = true
+	},
+	{
+		type = "item", 
+ 		name = "spoilage-cube",
+		subgroup = "cubes-subgroup",
+		weight = 1000*kg,
+		fuel_category = "chemical",
+		fuel_value = "5000MJ",
+		icon = "__tungsten-cube__/icons/spoilage_cube.png",
+		icon_size = 64,
+		stack_size = 1,
+ 		auto_recycle = true
+	},
+	{
+    	type = "capsule",
+    	name = "wube-cube",
+    	icon = "__tungsten-cube__/icons/wube_cube.png",
+		icon_size = 256,
+    	subgroup = "cubes-subgroup",
+    	capsule_action =
+    	{
+      	type = "use-on-self",
+      	attack_parameters =
+      	{
+        type = "projectile",
+        activation_type = "consume",
+        ammo_category = "capsule",
+        cooldown = 30,
+        range = 0,
+        ammo_type =
+        {
+        target_type = "position",
+    	action =
+        {
+        type = "direct",
+        action_delivery =
+        {
+        type = "instant",
+        target_effects =
+        {
+        {
+        type = "damage",
+        damage = {type = "physical", amount = -8000},
+        use_substitute = false
+        },
+        {
+        type = "play-sound",
+        sound = sounds.eat_fish
+        }
+        }
+        }
+        }
+        }
+      	}
+    	},
+    	inventory_move_sound = item_sounds.raw_fish_inventory_move,
+    	pick_sound = item_sounds.raw_fish_inventory_pickup,
+    	drop_sound = item_sounds.raw_fish_inventory_move,
+    	stack_size = 1,
+    	weight = 1000*kg
+  	},
+	{
+		type = "tool", 
+ 		name = "natalie-cube",
+		subgroup = "cubes-subgroup",
+		weight = 52*kg,
+		durability = 1,
+		icon = "__tungsten-cube__/icons/natalie_cube.png",
+		icon_size = 128,
 		stack_size = 1,
  		auto_recycle = true
 	}

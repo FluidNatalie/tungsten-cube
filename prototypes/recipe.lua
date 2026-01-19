@@ -144,5 +144,54 @@ data:extend({
  		hide_from_signal_gui = false,
  		auto_recycle = true,
         enabled = false
-    }
+    },
+	{
+ 		type = "recipe",
+ 		name = "spoilage-cube",
+		subgroup = "cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 600,
+ 		ingredients = {
+ 			{ type = "item", name = "spoilage", amount = 2000 }, 
+ 		},
+ 		results = {
+ 			{ type = "item", name = "spoilage-cube", amount = 1 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = true
+    },
+	{
+ 		type = "recipe",
+ 		name = "wube-cube",
+		subgroup = "cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 600,
+ 		ingredients = {
+ 			{ type = "item", name = "raw-fish", amount = 1000 }, 
+ 		},
+ 		results = {
+ 			{ type = "item", name = "wube-cube", amount = 1 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = true
+    },
+	{
+ 		type = "recipe",
+ 		name = "natalie-cube",
+		subgroup = "cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 600,
+ 		ingredients = {
+ 			{ type = "item", name = "locomotive", amount = 5 },
+			{ type = "item", name = "programmable-speaker", amount = 10 } 
+ 		},
+ 		results = {
+ 			{ type = "item", name = "natalie-cube", amount = 1 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = true
+    },
 })

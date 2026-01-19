@@ -1,4 +1,26 @@
 ---------------------------------------------------------------------------------------------------
+Version: 7.1.0
+Date: 18-01-2026
+  Features:
+    - Added the Natalie Cube! I am in the game, thanks JonJon
+    - The Wube Cube has had a face lift, thanks Polka, and I want to add a Natalie facts mechanic in a later update.
+  Locale:
+    - Ich bin einsam. :(
+    - Facts about me are now around.
+  Bugfixes:
+    - Have a nice week y'all!
+---------------------------------------------------------------------------------------------------
+Version: 7.0.0
+Date: 18-01-2026
+  Features:
+    - Internal recipes have been renamed, now properly!
+    - Added the Wube Cube and the Spoilage Cube! Yay!
+  Locale:
+    - Ich hasse Sonntags!
+    - Just a bit more english
+  Bugfixes:
+    - We do not talk about 6.0.1!
+---------------------------------------------------------------------------------------------------
 Version: 6.0.1
 Date: 18-01-2026
   Features:
