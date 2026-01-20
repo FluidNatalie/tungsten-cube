@@ -29,7 +29,8 @@ data:extend({
 			count = 1,
 			ingredients = {	{"natalie-cube", 1}, },
 			time = 60
-		}
+		},
+		hidden_in_factoriopedia = true
     },
 	{
  		type = "technology",
@@ -53,7 +54,8 @@ data:extend({
 			count = 1,
 			ingredients = {	{"natalie-cube", 5}, },
 			time = 60
-		}
+		},
+		hidden_in_factoriopedia = true
     },
 	{
  		type = "technology",
@@ -77,7 +79,8 @@ data:extend({
 			count = 1,
 			ingredients = {	{"natalie-cube", 10}, },
 			time = 60
-		}
+		},
+		hidden_in_factoriopedia = true
     },
 	{
  		type = "technology",
@@ -101,7 +104,8 @@ data:extend({
 			count = 1,
 			ingredients = {	{"natalie-cube", 20}, },
 			time = 60
-		}
+		},
+		hidden_in_factoriopedia = true
     },
 	{
  		type = "technology",
@@ -125,7 +129,8 @@ data:extend({
 			count = 1,
 			ingredients = {	{"natalie-cube", 50}, },
 			time = 60
-		}
+		},
+		hidden_in_factoriopedia = true
     },
 	{
  		type = "technology",
@@ -149,7 +154,8 @@ data:extend({
 			count = 1,
 			ingredients = {	{"natalie-cube", 100}, },
 			time = 50
-		}
+		},
+		hidden_in_factoriopedia = true
     },
 	{
  		type = "technology",
@@ -173,7 +179,8 @@ data:extend({
 			count = 1,
 			ingredients = {	{"natalie-cube", 500}, },
 			time = 40
-		}
+		},
+		hidden_in_factoriopedia = true
     },
 	{
  		type = "technology",
@@ -197,7 +204,8 @@ data:extend({
 			count = 1,
 			ingredients = {	{"natalie-cube", 1000}, },
 			time = 30
-		}
+		},
+		hidden_in_factoriopedia = true
     },
 	{
  		type = "technology",
@@ -221,7 +229,8 @@ data:extend({
 			count = 1,
 			ingredients = {	{"natalie-cube", 5000}, },
 			time = 20
-		}
+		},
+		hidden_in_factoriopedia = true
     },
 	{
  		type = "technology",
@@ -245,6 +254,7 @@ data:extend({
 			count = 1,
 			ingredients = {	{"natalie-cube", 50000}, },
 			time = 10
-		}
+		},
+		hidden_in_factoriopedia = true
     }
 })

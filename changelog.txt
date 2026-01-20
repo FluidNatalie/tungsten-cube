@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 7.2.1
+Date: 20-01-2026
+  Features:
+    - Nothing new today!
+    - Please bring me ideas if you have them
+  Locale:
+    - Ich mag Fehrnsehr
+    - I fixed a thing but added no english.
+  Bugfixes:
+    - Fixed a bug with the wrong tooltip, also fixed an exploit that let you see the fun facts before researching them.
+---------------------------------------------------------------------------------------------------
 Version: 7.2.0
 Date: 19-01-2026
   Features:

@@ -8,7 +8,8 @@ data:extend({
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
 		stack_size = 1,
- 		auto_recycle = true
+ 		auto_recycle = true,
+		hidden_in_factoriopedia = true
 	},
 	{
 		type = "item",
@@ -18,7 +19,8 @@ data:extend({
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
 		stack_size = 1,
- 		auto_recycle = true
+ 		auto_recycle = true,
+		hidden_in_factoriopedia = true
 	},
 	{
 		type = "item",
@@ -28,7 +30,8 @@ data:extend({
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
 		stack_size = 1,
- 		auto_recycle = true
+ 		auto_recycle = true,
+		hidden_in_factoriopedia = true
 	},
 	{
 		type = "item",
@@ -38,7 +41,8 @@ data:extend({
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
 		stack_size = 1,
- 		auto_recycle = true
+ 		auto_recycle = true,
+		hidden_in_factoriopedia = true
 	},
 	{
 		type = "item",
@@ -48,7 +52,8 @@ data:extend({
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
 		stack_size = 1,
- 		auto_recycle = true
+ 		auto_recycle = true,
+		hidden_in_factoriopedia = true
 	},
 	{
 		type = "item",
@@ -58,7 +63,8 @@ data:extend({
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
 		stack_size = 1,
- 		auto_recycle = true
+ 		auto_recycle = true,
+		hidden_in_factoriopedia = true
 	},
 	{
 		type = "item",
@@ -68,7 +74,8 @@ data:extend({
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
 		stack_size = 1,
- 		auto_recycle = true
+ 		auto_recycle = true,
+		hidden_in_factoriopedia = true
 	},
 	{
 		type = "item",
@@ -78,7 +85,8 @@ data:extend({
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
 		stack_size = 1,
- 		auto_recycle = true
+ 		auto_recycle = true,
+		hidden_in_factoriopedia = true
 	},
 	{
 		type = "item",
@@ -88,7 +96,8 @@ data:extend({
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
 		stack_size = 1,
- 		auto_recycle = true
+ 		auto_recycle = true,
+		hidden_in_factoriopedia = true
 	},
 	{
 		type = "item",
@@ -98,6 +107,7 @@ data:extend({
 		icon = "__tungsten-cube__/icons/placeholder_cube.png",
 		icon_size = 64,
 		stack_size = 1,
- 		auto_recycle = true
+ 		auto_recycle = true,
+		hidden_in_factoriopedia = true
 	},
 })
