@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 8.0.0
+Date: 21-01-2026
+  Features:
+    - Added original and unique music made just for this mod.
+    - Have not tested the audio, tell me if it is too loud.
+  Locale:
+    - Tatortreiniger ist super.
+    - English lyrics
+  Bugfixes:
+    - My taste in music is your cube!
+---------------------------------------------------------------------------------------------------
 Version: 7.2.1
 Date: 20-01-2026
   Features:

@@ -4,6 +4,7 @@ require("prototypes.technology")
 require("prototypes.achievements")
 require("prototypes.equipment")
 require("prototypes.projectiles")
+require("prototypes.music")
 
 require("prototypes.natalie_facts.fact_tapes")
 require("prototypes.natalie_facts.fact_techs")
