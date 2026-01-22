@@ -26,7 +26,7 @@ data:extend({
 	{
  		type = "research-achievement",
  		name = "all-the-cubes",
-		icon = "__tungsten-cube__/icons/cubes_group.png",
+		icon = "__tungsten-cube__/icons/cubes_group1.png",
 		icon_size = 128,
 		technology = "all-the-cubes"
     },

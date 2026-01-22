@@ -17,7 +17,7 @@ data:extend({
     },
     shadow =
     {
-      filename = "__tungsten-cube__/icons/shadow_cube.png",
+      filename = "__tungsten-cube__/icons/shadows/iron_cube_shadow.png",
       width = 64,
       height = 64,
       scale = 0.5

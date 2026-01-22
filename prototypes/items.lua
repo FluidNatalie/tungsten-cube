@@ -2,20 +2,33 @@ local sounds = require("__base__.prototypes.entity.sounds")
 local item_sounds = require("__base__.prototypes.item_sounds")
 
 table.insert(data.raw.lab["lab"].inputs, "natalie-cube")
-table.insert(data.raw.lab["lab"].inputs, "science-cube")
+table.insert(data.raw.lab["lab"].inputs, "legacy-science-cube")
+
+table.insert(data.raw.lab["biolab"].inputs, "natalie-cube")
+table.insert(data.raw.lab["biolab"].inputs, "legacy-science-cube")
 
 
 data:extend({
 	{ ------------------------------------------------------------------------Item Group
 		type = "item-group",
 		name = "cubes-group",
-		icon = "__tungsten-cube__/icons/cubes_group.png",
+		icon = "__tungsten-cube__/icons/cubes_group1.png",
 		icon_size = 128,
 		order = "e1[cubes]"
 	},
 	{
 		type = "item-subgroup",
 		name = "cubes-subgroup",
+		group = "cubes-group"
+	},
+	{
+		type = "item-subgroup",
+		name = "science-cubes-subgroup",
+		group = "cubes-group"
+	},
+	{
+		type = "item-subgroup",
+		name = "fact-tapes-subgroup",
 		group = "cubes-group"
 	},
 	{ ------------------------------------------------------------------------Items
@@ -35,7 +48,7 @@ data:extend({
 		attack_parameters = 
 		{
 		type = "projectile",
-		sound = { filename = "__tungsten-cube__/sounds/throw.ogg" }, --find out if I can add an alternative setting to just be the audio of the video
+		sound = { filename = "__tungsten-cube__/sounds/tungsten_throw.ogg" }, --find out if I can add an alternative setting to just be the audio of the video
 		range = 20,
 		cooldown = 30,
 		activation_type = "throw",
@@ -102,7 +115,7 @@ data:extend({
  		auto_recycle = true
 	},
 	{
-		type = "item", --turn this into an insanely strong fuel
+		type = "item", 
  		name = "carbon-cube",
 		subgroup = "cubes-subgroup",
 		fuel_category = "chemical",
@@ -139,7 +152,7 @@ data:extend({
  		name = "u-235-cube",
 		subgroup = "cubes-subgroup",
 		weight = 1000*kg,
-		icon = "__tungsten-cube__/icons/uranium235_cube.png",
+		icon = "__tungsten-cube__/icons/temp_icons/uranium235_cube.png",
 		stack_size = 1,
  		auto_recycle = true
 	},
@@ -155,14 +168,14 @@ data:extend({
 	},
 	{
 		type = "tool", 
- 		name = "science-cube",
-		subgroup = "cubes-subgroup",
+ 		name = "legacy-science-cube",
+		subgroup = "science-cubes-subgroup",
 		weight = 1000*kg,
 		durability = 1,
 		durability_description_key = "description.science-pack-remaining-amount-key",
     	factoriopedia_durability_description_key = "description.factoriopedia-science-pack-remaining-amount-key",
     	durability_description_value = "description.science-pack-remaining-amount-value",
-		icon = "__tungsten-cube__/icons/placeholder_cube.png",
+		icon = "__tungsten-cube__/icons/flasks/cube_clear_purple.png",
 		icon_size = 64,
 		stack_size = 1,
  		auto_recycle = true
@@ -174,7 +187,7 @@ data:extend({
 		weight = 1000*kg,
 		fuel_category = "chemical",
 		fuel_value = "5000MJ",
-		icon = "__tungsten-cube__/icons/spoilage_cube.png",
+		icon = "__tungsten-cube__/icons/temp_icons/spoilage_cube.png",
 		icon_size = 64,
 		stack_size = 1,
  		auto_recycle = true
@@ -230,7 +243,7 @@ data:extend({
 	{
 		type = "tool", 
  		name = "natalie-cube",
-		subgroup = "cubes-subgroup",
+		subgroup = "science-cubes-subgroup",
 		weight = 52*kg,
 		durability = 1,
 		durability_description_key = "description.science-pack-remaining-amount-key",

@@ -129,8 +129,8 @@ data:extend({
     },
 	{
  		type = "recipe",
- 		name = "science-cube",
-		subgroup = "cubes-subgroup",
+ 		name = "legacy-science-cube",
+		subgroup = "science-cubes-subgroup",
  		category = "crafting",
  		energy_required = 600,
  		ingredients = {
@@ -139,7 +139,7 @@ data:extend({
 			{ type = "item", name = "chemical-science-pack", amount = 100 }, 
  		},
  		results = {
- 			{ type = "item", name = "science-cube", amount = 1 },
+ 			{ type = "item", name = "legacy-science-cube", amount = 1 },
  		},
  		hide_from_signal_gui = false,
  		auto_recycle = true,
@@ -180,7 +180,7 @@ data:extend({
 	{
  		type = "recipe",
  		name = "natalie-cube",
-		subgroup = "cubes-subgroup",
+		subgroup = "science-cubes-subgroup",
  		category = "crafting",
  		energy_required = 600,
  		ingredients = {

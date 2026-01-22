@@ -1,0 +1,28 @@
+{
+	"recipe":
+	[
+		["tungsten-cube-recipe", "tungsten-cube"],
+		["biter-egg-cube-recipe", "biter-egg-cube"],
+		["carbon-cube-recipe", "carbon-cube"],
+		["holmium-cube-recipe", "holmium-cube"],
+		["iron-cube-recipe", "iron-cube"],
+		["u-235-cube-recipe", "u-235-cube"],
+		["plastic-cube-recipe", "plastic-cube"],
+		["science-cube-recipe", "science-cube"],
+		["copper-cube-recipe", "copper-cube"],
+		["science-cube", "legacy-science-cube"]
+	],
+	"item":
+	[
+		["science-cube", "legacy-science-cube"],
+		["fact-tape-1", "fact-tape-01"],
+		["fact-tape-2", "fact-tape-02"],
+		["fact-tape-3", "fact-tape-03"],
+		["fact-tape-4", "fact-tape-04"],
+		["fact-tape-5", "fact-tape-05"],
+		["fact-tape-6", "fact-tape-06"],
+		["fact-tape-7", "fact-tape-07"],
+		["fact-tape-8", "fact-tape-08"],
+		["fact-tape-9", "fact-tape-09"]
+	]
+}

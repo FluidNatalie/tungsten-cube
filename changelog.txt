@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 9.0.0
+Date: 22-01-2026
+  Features:
+    - Complete refactoring of code and assets.
+    - Added more settings with more planed.
+  Locale:
+    - German is on hold for the foreseable future.
+    - Fixed the locale from all the things I broke
+  Bugfixes:
+    - Cuwube :3
+---------------------------------------------------------------------------------------------------
 Version: 8.0.0
 Date: 21-01-2026
   Features:

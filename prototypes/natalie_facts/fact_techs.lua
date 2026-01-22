@@ -1,8 +1,8 @@
 CMode = settings.startup["natalie-cube-mode"].value --CMode just stores the Cube Mode setting to make the if statements below readable
 
-if CMode == "Yeppers" or CMode == "Yep" or CMode == "Sure" then
+if CMode == "Dynamic Graphics" or CMode == "Force Moshine Graphics" or CMode == "Force Spaghetorio Graphics" then
 fact_tech_hidden = false
-elseif CMode == "Nah Thanks" or CMode == "No way!" or CMode == "Nope" then
+elseif CMode == "Disable" then
 fact_tech_hidden = true
 end
 
@@ -20,7 +20,7 @@ data:extend({
 		{
 			{
 				type = "give-item",
-				item = "fact-tape-1",
+				item = "fact-tape-01",
 				hidden = true
 			}
 		},
@@ -45,7 +45,7 @@ data:extend({
 		{
 			{
 				type = "give-item",
-				item = "fact-tape-2",
+				item = "fact-tape-02",
 				hidden = true
 			}
 		},
@@ -70,7 +70,7 @@ data:extend({
 		{
 			{
 				type = "give-item",
-				item = "fact-tape-3",
+				item = "fact-tape-03",
 				hidden = true
 			}
 		},
@@ -95,7 +95,7 @@ data:extend({
 		{
 			{
 				type = "give-item",
-				item = "fact-tape-4",
+				item = "fact-tape-04",
 				hidden = true
 			}
 		},
@@ -120,7 +120,7 @@ data:extend({
 		{
 			{
 				type = "give-item",
-				item = "fact-tape-5",
+				item = "fact-tape-05",
 				hidden = true
 			}
 		},
@@ -145,7 +145,7 @@ data:extend({
 		{
 			{
 				type = "give-item",
-				item = "fact-tape-6",
+				item = "fact-tape-06",
 				hidden = true
 			}
 		},
@@ -170,7 +170,7 @@ data:extend({
 		{
 			{
 				type = "give-item",
-				item = "fact-tape-7",
+				item = "fact-tape-07",
 				hidden = true
 			}
 		},
@@ -195,7 +195,7 @@ data:extend({
 		{
 			{
 				type = "give-item",
-				item = "fact-tape-8",
+				item = "fact-tape-08",
 				hidden = true
 			}
 		},
@@ -220,7 +220,7 @@ data:extend({
 		{
 			{
 				type = "give-item",
-				item = "fact-tape-9",
+				item = "fact-tape-09",
 				hidden = true
 			}
 		},

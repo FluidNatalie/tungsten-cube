@@ -2,8 +2,8 @@ data:extend({
  	{ 
  		type = "technology",
  		name = "cube-productivity",
-		icon = "__tungsten-cube__/icons/placeholder_cube.png",
-		icon_size = 64,
+		icon = "__tungsten-cube__/icons/cubes_group1.png",
+		icon_size = 128,
 		upgrade = true,
 		max_level = 30,
         enabled = true,
@@ -13,7 +13,7 @@ data:extend({
 		{
 			{
 				type = "change-recipe-productivity",
-				recipe = "science-cube",
+				recipe = "legacy-science-cube",
 				change = 0.1
 			},
 			{
@@ -70,7 +70,7 @@ data:extend({
 		unit = 
 		{
 			count_formula = "100*L",
-			ingredients = {	{"science-cube", 1}, },
+			ingredients = {	{"legacy-science-cube", 1}, },
 			time = 60
 		}
     },
@@ -101,7 +101,7 @@ data:extend({
 	{
  		type = "technology",
  		name = "iron-and-copper-cube-unlock",
-		icon = "__tungsten-cube__/icons/cubes_group.png",
+		icon = "__tungsten-cube__/icons/cubes_group1.png",
 		icon_size = 128,
         enabled = true,
 		essential = true,
@@ -118,7 +118,7 @@ data:extend({
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "science-cube"
+				recipe = "legacy-science-cube"
 			},
 		},
 		unit = 
@@ -178,7 +178,7 @@ data:extend({
 	{
  		type = "technology",
  		name = "biter-egg-cube-unlock",
-		icon = "__tungsten-cube__/icons/biter_egg_cube_alt.png",
+		icon = "__tungsten-cube__/icons/temp_icons/biter_egg_cube_alt.png",
 		icon_size = 128,
         enabled = true,
 		essential = true,
@@ -205,7 +205,7 @@ data:extend({
 	{
  		type = "technology",
  		name = "u-235-cube-unlock",
-		icon = "__tungsten-cube__/icons/uranium235_cube.png",
+		icon = "__tungsten-cube__/icons/temp_icons/uranium235_cube.png",
         enabled = true,
 		essential = true,
 		prerequisites = {"uranium-mining"},
