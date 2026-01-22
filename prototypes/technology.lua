@@ -247,6 +247,53 @@ data:extend({
 			 				{"logistic-science-pack", 1} },
 			time = 30
 		}
-    }
-	
+    },
+	--[[
+	{
+ 		type = "technology",
+ 		name = "stone-cube",
+		icon = "__tungsten-cube__/icons/borrowed_icons/stone_cube2.png",
+		icon_size = 64,
+        enabled = true,
+		essential = true,
+		hidden = false,
+		prerequisites = {},
+		effects = 
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "stone-cube"
+			}
+		},
+		research_trigger = 
+		{
+			type = "craft-item",
+			item = "stone",
+			count = 500
+		}
+    },
+	{
+ 		type = "technology",
+ 		name = "empty-science-cube",
+		icon = "__tungsten-cube__/icons/flasks/tech_icons/cube_empty.png",
+		icon_size = 256,
+        enabled = true,
+		essential = true,
+		hidden = false,
+		prerequisites = {"stone-cube"},
+		effects = 
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "empty-science-cube"
+			}
+		},
+		research_trigger = 
+		{
+			type = "craft-item",
+			item = "stone-cube",
+			count = 1
+		}
+    },
+	--]]
 })

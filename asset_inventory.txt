@@ -3,47 +3,47 @@ Last updated with version: 8.0.0
 *Means that this is a legal grey area or the credit is just the person that gave me the file not the original creator
 
 ->Filepath
-Filename		Credit		Licence
+Filename		        Credit		    Licence
 
 ->bonus_content
-wow_thumbnail.png	Allison		Donated
-age_thumbnail.png	Osmo		Donated
-cube_copypasta.ogg	Polka*		Donated*	
+wow_thumbnail.png	    Allison		    Donated
+age_thumbnail.png	    Osmo		    Donated
+cube_copypasta.ogg	    Polka*		    Donated*	
 
 ->icons
-biter_egg_cube.png	JonJon		Donated
-carbon_cube.png		Osmo		Donated
-copper_cube.png		Osmo		Donated
-cubes_group1.png	Osmo		Donated
-holmium_cube.png	Polka		Donated
-iron_cube.png		Osmo		Donated
-natalie_cube.png	JonJon		Donated
-plastic_cube.png	Osmo		Donated
-tungsten_cube.png	Allison		Donated
-wube_cube.png		Polka		Donated
+biter_egg_cube.png	    JonJon		    Donated
+carbon_cube.png		    Osmo		    Donated
+copper_cube.png		    Osmo		    Donated
+cubes_group1.png	    Osmo		    Donated
+holmium_cube.png	    Polka		    Donated
+iron_cube.png		    Osmo		    Donated
+natalie_cube.png	    JonJon		    Donated
+plastic_cube.png	    Osmo		    Donated
+tungsten_cube.png	    Allison		    Donated
+wube_cube.png		    Polka		    Donated
 
 ->icons/borrowed_icons
-moshine_drive		Snouz		MIT
+moshine_drive		    Snouz		    MIT
 spaghetorio_drive.png	Spaghetti2364	GNU LGPLv3
-stone_cube1.png		malcolmriley	CC-BY-4.0
-stone_cube2.png		malcolmriley	CC-BY-4.0
-stone_cube3.png		malcolmriley	CC-BY-4.0
+stone_cube1.png		    malcolmriley	CC-BY-4.0
+stone_cube2.png		    malcolmriley	CC-BY-4.0
+stone_cube3.png		    malcolmriley	CC-BY-4.0
 
 ->icons/flasks
-cube...png		Hornwitser	CC BY-SA 4.0
+cube...png		        Hornwitser	    CC BY-SA 4.0
 
 ->icons/shadows
 iron_cube_shadow.png	FluidNatalie	Donated
 
 ->icons/temp_icons
-biter_egg_cube_alt.png	JonJon		Donated
+biter_egg_cube_alt.png	JonJon		    Donated
 placeholder_cube.png	FluidNatalie	Donated
-spoilage_cube.png	FluidNatalie	Donated
-uranium235_cube.png	Polka		Donated
+spoilage_cube.png	    FluidNatalie	Donated
+uranium235_cube.png	    Polka		    Donated
 
 ->music
-cube_jump.ogg		FluidNatalie	Donated*
-cube_roll.ogg		FluidNatalie	Donated*
+cube_jump.ogg		    FluidNatalie	Donated*
+cube_roll.ogg		    FluidNatalie	Donated*
 
 ->sounds
-tungsten_throw.ogg	FluidNatalie	Donated
+tungsten_throw.ogg	    FluidNatalie	Donated

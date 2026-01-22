@@ -194,4 +194,53 @@ data:extend({
  		auto_recycle = true,
         enabled = true
     },
+	{
+ 		type = "recipe",
+ 		name = "stone-cube",
+		subgroup = "cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 60,
+ 		ingredients = {
+ 			{ type = "item", name = "stone", amount = 50 }
+ 		},
+ 		results = {
+ 			{ type = "item", name = "stone-cube", amount = 1 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
+    },
+	{
+ 		type = "recipe",
+ 		name = "batch-stone-cube",
+		subgroup = "cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 300,
+ 		ingredients = {
+ 			{ type = "item", name = "stone", amount = 450 },
+			{ type = "item", name = "calcite", amount = 50 } 
+ 		},
+ 		results = {
+ 			{ type = "item", name = "stone-cube", amount = 10 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
+    },
+	{
+ 		type = "recipe",
+ 		name = "empty-science-cube",
+		subgroup = "science-cubes-subgroup",
+ 		category = "smelting",
+ 		energy_required = 60,
+ 		ingredients = {
+ 			{ type = "item", name = "stone-cube", amount = 1 } 
+ 		},
+ 		results = {
+ 			{ type = "item", name = "empty-science-cube", amount = 1 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
+    },
 })
