@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 9.0.1
+Date: 22-01-2026
+  Features:
+    - No features, just a patch so that Samario can add compatability to their mod
+  Bugfixes:
+    - Don't look at me
+---------------------------------------------------------------------------------------------------
 Version: 9.0.0
 Date: 22-01-2026
   Features:

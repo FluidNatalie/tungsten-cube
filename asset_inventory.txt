@@ -32,6 +32,9 @@ stone_cube3.png		    malcolmriley	CC-BY-4.0
 ->icons/flasks
 cube...png		        Hornwitser	    CC BY-SA 4.0
 
+->icons/flasks/tech_icons
+cube...png		        Hornwitser	    CC BY-SA 4.0
+
 ->icons/shadows
 iron_cube_shadow.png	FluidNatalie	Donated
 
