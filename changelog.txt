@@ -1,4 +1,25 @@
 ---------------------------------------------------------------------------------------------------
+Version: 9.1.1
+Date: 23-01-2026
+  Features:
+    - Added the efficency cube
+  Locale:
+    - The German locale is going to arrive at the same time as the Deutsche Bahn train.
+    - Mir ist die Zeit ausgegangen Witze auszudenken.
+  Bugfixes:
+    - Ran out of time to think of jokes.
+---------------------------------------------------------------------------------------------------
+Version: 9.1.0
+Date: 22-01-2026
+  Features:
+    - Added a new science cube, eventually the old one will be faded out so stop using it.
+    - I am tired af but I would love some ideas for little rewards for the nauvis tech levels.
+  Locale:
+    - The German locale is going to arrive at the same time as the Deutsche Bahn train.
+    - Added a bunch of quips no one be me cares about.
+  Bugfixes:
+    - Hides the science that nobody saw.
+---------------------------------------------------------------------------------------------------
 Version: 9.0.1
 Date: 22-01-2026
   Features:

@@ -31,6 +31,11 @@ data:extend({
 		name = "fact-tapes-subgroup",
 		group = "cubes-group"
 	},
+	{
+		type = "item-subgroup",
+		name = "module-cube-subgroup",
+		group = "cubes-group"
+	},
 	{ ------------------------------------------------------------------------Items
  		type = "capsule",
  		name = "tungsten-cube",
@@ -170,6 +175,7 @@ data:extend({
 		type = "tool", 
  		name = "legacy-science-cube",
 		subgroup = "science-cubes-subgroup",
+		order = "an[science]",
 		weight = 1000*kg,
 		durability = 1,
 		durability_description_key = "description.science-pack-remaining-amount-key",
@@ -244,6 +250,7 @@ data:extend({
 		type = "tool", 
  		name = "natalie-cube",
 		subgroup = "science-cubes-subgroup",
+		order = "am[science]",
 		weight = 52*kg,
 		durability = 1,
 		durability_description_key = "description.science-pack-remaining-amount-key",

@@ -26,8 +26,8 @@ wube_cube.png		    Polka		    Donated
 moshine_drive		    Snouz		    MIT
 spaghetorio_drive.png	Spaghetti2364	GNU LGPLv3
 stone_cube1.png		    malcolmriley	CC-BY-4.0
-stone_cube2.png		    malcolmriley	CC-BY-4.0
-stone_cube3.png		    malcolmriley	CC-BY-4.0
+calcite_cube2.png		malcolmriley	CC-BY-4.0
+calcite_cube3.png		malcolmriley	CC-BY-4.0
 
 ->icons/flasks
 cube...png		        Hornwitser	    CC BY-SA 4.0

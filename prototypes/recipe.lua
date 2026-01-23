@@ -52,7 +52,7 @@ data:extend({
  		name = "copper-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
- 		energy_required = 600,
+ 		energy_required = 30,
  		ingredients = {
  			{ type = "item", name = "copper-plate", amount = 1000 },
  		},
@@ -84,7 +84,7 @@ data:extend({
  		name = "iron-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
- 		energy_required = 600,
+ 		energy_required = 30,
  		ingredients = {
  			{ type = "item", name = "iron-plate", amount = 1000 },
  		},
@@ -212,7 +212,7 @@ data:extend({
     },
 	{
  		type = "recipe",
- 		name = "batch-stone-cube",
+ 		name = "batch-stone-cube", --make better icon
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 300,
@@ -232,7 +232,7 @@ data:extend({
  		name = "empty-science-cube",
 		subgroup = "science-cubes-subgroup",
  		category = "smelting",
- 		energy_required = 60,
+ 		energy_required = 30,
  		ingredients = {
  			{ type = "item", name = "stone-cube", amount = 1 } 
  		},
@@ -242,5 +242,43 @@ data:extend({
  		hide_from_signal_gui = false,
  		auto_recycle = true,
         enabled = false
+    },
+	{
+ 		type = "recipe",
+ 		name = "red-science-cube",
+		subgroup = "science-cubes-subgroup",
+ 		category = "crafting-with-fluid",
+ 		energy_required = 30,
+		main_product = "red-science-cube",
+ 		ingredients = {
+ 			{ type = "item", name = "empty-science-cube", amount = 1 },
+			{ type = "item", name = "copper-cube", amount = 1 },
+			{ type = "item", name = "iron-cube", amount = 1 },
+			{ type = "fluid", name = "water", amount = 1000 }
+ 		},
+ 		results = {
+ 			{ type = "item", name = "red-science-cube", amount = 1 },
+			{ type = "item", name = "copper-cube", amount = 1, probability = 0.15 },
+			{ type = "item", name = "iron-cube", amount = 1, probability = 0.15 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
+    },
+	{
+ 		type = "recipe",
+ 		name = "efficiency-module-cube",
+		subgroup = "module-cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 30,
+ 		ingredients = {
+ 			{ type = "item", name = "electronic", amount = 1000 },
+ 		},
+ 		results = {
+ 			{ type = "item", name = "efficiency-module-cube", amount = 1 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = true
     },
 })

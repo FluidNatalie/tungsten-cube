@@ -248,11 +248,10 @@ data:extend({
 			time = 30
 		}
     },
-	--[[
 	{
  		type = "technology",
- 		name = "stone-cube",
-		icon = "__tungsten-cube__/icons/borrowed_icons/stone_cube2.png",
+ 		name = "stone-cube-unlock",
+		icon = "__tungsten-cube__/icons/borrowed_icons/stone_cube1.png",
 		icon_size = 64,
         enabled = true,
 		essential = true,
@@ -274,13 +273,13 @@ data:extend({
     },
 	{
  		type = "technology",
- 		name = "empty-science-cube",
+ 		name = "empty-science-cube-unlock",
 		icon = "__tungsten-cube__/icons/flasks/tech_icons/cube_empty.png",
 		icon_size = 256,
         enabled = true,
 		essential = true,
 		hidden = false,
-		prerequisites = {"stone-cube"},
+		prerequisites = {"stone-cube-unlock"},
 		effects = 
 		{
 			{
@@ -295,5 +294,50 @@ data:extend({
 			count = 1
 		}
     },
-	--]]
+	{
+ 		type = "technology",
+ 		name = "red-science-cube-unlock",
+		icon = "__tungsten-cube__/icons/flasks/tech_icons/cube_clear_red.png",
+		icon_size = 256,
+        enabled = true,
+		essential = true,
+		prerequisites = {"automation-science-pack", "empty-science-cube-unlock"},
+		effects = 
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "red-science-cube"
+			}
+		},
+		unit = 
+		{
+			count = 50,
+			ingredients = {	{"automation-science-pack", 1} },
+			time = 30
+		}
+    },
+	{
+ 		type = "technology",
+ 		name = "chracter-craft-research1",
+		icon = "__tungsten-cube__/icons/flasks/tech_icons/cube_clear_red.png",
+		icon_size = 256,
+        enabled = true,
+		essential = true,
+		prerequisites = {"red-science-cube-unlock"},
+		effects = 
+		{
+			{
+				type = "character-crafting-speed",
+				modifier = 0.1
+			}
+		},
+		unit = 
+		{
+			count = 10,
+			ingredients = {	{"automation-science-pack", 5},
+							{"red-science-cube", 1} },
+			time = 30
+		}
+    },
+	
 })
