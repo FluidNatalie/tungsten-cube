@@ -33,7 +33,7 @@ data:extend({
 	},
 	{
 		type = "item-subgroup",
-		name = "module-cube-subgroup",
+		name = "module-cubes-subgroup",
 		group = "cubes-group"
 	},
 	{ ------------------------------------------------------------------------Items

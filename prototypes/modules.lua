@@ -4,7 +4,7 @@ data:extend({
     name = "efficiency-module-cube",
     icon = "__tungsten-cube__/icons/efficiency_cube.png",
 	icon_size = 310,
-    subgroup = "module-cube-subgroup",
+    subgroup = "module-cubes-subgroup",
     color_hint = { text = "E" },
     category = "efficiency",
     tier = 4,

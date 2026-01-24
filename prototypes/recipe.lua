@@ -272,7 +272,7 @@ data:extend({
  		category = "crafting",
  		energy_required = 30,
  		ingredients = {
- 			{ type = "item", name = "electronic", amount = 1000 },
+ 			{ type = "item", name = "electronic-circuit", amount = 1000 },
  		},
  		results = {
  			{ type = "item", name = "efficiency-module-cube", amount = 1 },
