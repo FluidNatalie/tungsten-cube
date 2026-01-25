@@ -116,10 +116,10 @@ data:extend({
 				type = "unlock-recipe",
 				recipe = "copper-cube"
 			},
-			{
-				type = "unlock-recipe",
-				recipe = "legacy-science-cube"
-			},
+--			{
+--				type = "unlock-recipe",
+--				recipe = "legacy-science-cube"
+--			},
 		},
 		unit = 
 		{
@@ -132,7 +132,7 @@ data:extend({
  		type = "technology",
  		name = "carbon-cube-unlock",
 		icon = "__tungsten-cube__/icons/carbon_cube.png",
-        enabled = true,
+        enabled = false, --disable until needed later
 		essential = true,
 		prerequisites = {"space-platform"},
 		effects = 
@@ -155,7 +155,7 @@ data:extend({
  		type = "technology",
  		name = "holmium-cube-unlock",
 		icon = "__tungsten-cube__/icons/holmium_cube.png",
-        enabled = true,
+        enabled = false, --disable until needed later
 		essential = true,
 		prerequisites = {"holmium-processing"},
 		effects = 
@@ -180,7 +180,7 @@ data:extend({
  		name = "biter-egg-cube-unlock",
 		icon = "__tungsten-cube__/icons/temp_icons/biter_egg_cube_alt.png",
 		icon_size = 128,
-        enabled = true,
+        enabled = false, --disable until needed later
 		essential = true,
 		prerequisites = {"captivity"},
 		effects = 
@@ -206,7 +206,7 @@ data:extend({
  		type = "technology",
  		name = "u-235-cube-unlock",
 		icon = "__tungsten-cube__/icons/temp_icons/uranium235_cube.png",
-        enabled = true,
+        enabled = false, --disable until needed later
 		essential = true,
 		prerequisites = {"uranium-mining"},
 		effects = 
@@ -301,7 +301,7 @@ data:extend({
 		icon_size = 256,
         enabled = true,
 		essential = true,
-		prerequisites = {"automation-science-pack", "empty-science-cube-unlock"},
+		prerequisites = {"automation-science-pack", "empty-science-cube-unlock", "automation-2"},
 		effects = 
 		{
 			{

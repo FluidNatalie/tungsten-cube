@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 9.1.3
+Date: 24-01-2026
+  Features:
+    - Added the productivity cube
+  Locale:
+    - Deutschland
+    - Now with 1 more cube
+  Bugfixes:
+    - Fixed how the Natalie tech works. This lets you use it with other mods better.
+---------------------------------------------------------------------------------------------------
 Version: 9.1.2
 Date: 23-01-2026
   Features:

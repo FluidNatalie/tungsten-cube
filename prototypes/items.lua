@@ -102,9 +102,9 @@ data:extend({
         }
       	}
     	},
-		weight = 1000*kg,
+		weight = 100*kg,
 		icon = "__tungsten-cube__/icons/iron_cube.png",
-		stack_size = 1,
+		stack_size = 10,
  		auto_recycle = true,
 		inventory_move_sound = item_sounds.artillery_large_inventory_move,
     	pick_sound = item_sounds.artillery_large_inventory_pickup,
@@ -114,9 +114,9 @@ data:extend({
 		type = "item",
  		name = "copper-cube",
 		subgroup = "cubes-subgroup",
-		weight = 1000*kg,
+		weight = 100*kg,
 		icon = "__tungsten-cube__/icons/copper_cube.png",
-		stack_size = 1,
+		stack_size = 10,
  		auto_recycle = true
 	},
 	{

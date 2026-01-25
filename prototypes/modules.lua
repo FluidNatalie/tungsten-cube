@@ -19,5 +19,25 @@ data:extend({
     },
     art_style = "vanilla",
     requires_beacon_alt_mode = false
-	}
+	},
+    {
+    type = "module",
+    name = "productivity-module-cube",
+    icon = "__tungsten-cube__/icons/productivity_cube.png",
+    icon_size = 256,
+    subgroup = "module-cubes-subgroup",
+    color_hint = { text = "P" },
+    category = "productivity",
+    tier = 4,
+  --order = "",
+    stack_size = 50,
+    weight = 20 * kg,
+    effect =
+    {
+      productivity = 0.4,
+      consumption = 1,
+      pollution = 0.1,
+      speed = -0.25
+    }
+  },
 })
