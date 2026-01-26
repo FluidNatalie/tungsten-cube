@@ -270,6 +270,16 @@ data:extend({
 		icon_size = 64,
 		stack_size = 1,
  		auto_recycle = true
+	},
+	{
+		type = "item",
+ 		name = "concrete-cube",
+		subgroup = "cubes-subgroup",
+		weight = 100*kg,
+		icon = "__tungsten-cube__/icons/borrowed_icons/stone_cube1.png",
+		icon_size = 64,
+		stack_size = 1,
+ 		auto_recycle = true
 	}
 
 
