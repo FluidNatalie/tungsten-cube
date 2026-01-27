@@ -248,14 +248,13 @@ data:extend({
  		type = "recipe",
  		name = "red-science-cube",
 		subgroup = "science-cubes-subgroup",
- 		category = "crafting-with-fluid",
+ 		category = "crafting",
  		energy_required = 50,
 		main_product = "red-science-cube",
  		ingredients = {
  			{ type = "item", name = "empty-science-cube", amount = 10 },
 			{ type = "item", name = "copper-cube", amount = 1 },
-			{ type = "item", name = "iron-cube", amount = 2 },
-			{ type = "fluid", name = "water", amount = 1000 }
+			{ type = "item", name = "iron-cube", amount = 2 }
  		},
  		results = {
  			{ type = "item", name = "red-science-cube", amount = 10 },

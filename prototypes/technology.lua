@@ -273,6 +273,32 @@ data:extend({
     },
 	{
  		type = "technology",
+ 		name = "concrete-cube",
+		icon = "__tungsten-cube__/icons/concrete_cube.png",
+		icon_size = 64,
+        enabled = true,
+		essential = true,
+		hidden = false,
+		prerequisites = {"concrete"},
+		effects = 
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "concrete-cube"
+			}
+		},
+		research_trigger = 
+		{
+			type = "craft-item",
+			item = "concrete",
+			count = 100
+		}
+    },
+	
+--Science Pack Unlocks
+	
+	{
+ 		type = "technology",
  		name = "empty-science-cube-unlock",
 		icon = "__tungsten-cube__/icons/flasks/tech_icons/cube_empty.png",
 		icon_size = 256,
@@ -301,7 +327,7 @@ data:extend({
 		icon_size = 256,
         enabled = true,
 		essential = true,
-		prerequisites = {"automation-science-pack", "empty-science-cube-unlock", "automation-2"},
+		prerequisites = {"automation-science-pack", "empty-science-cube-unlock"},
 		effects = 
 		{
 			{
@@ -316,6 +342,9 @@ data:extend({
 			time = 30
 		}
     },
+
+--Science Pack Rewards	
+
 	{
  		type = "technology",
  		name = "chracter-craft-research1",

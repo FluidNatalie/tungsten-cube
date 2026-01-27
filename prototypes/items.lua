@@ -124,13 +124,13 @@ data:extend({
  		name = "carbon-cube",
 		subgroup = "cubes-subgroup",
 		fuel_category = "chemical",
-		fuel_value = "1000MJ",
-		fuel_acceleration_multiplier = 3,
-		fuel_top_speed_multiplier = 1.5,
-		fuel_emissions_multiplier = 0.5,
-		weight = 500*kg,
+		fuel_value = "100MJ",
+		fuel_acceleration_multiplier = 2,
+		fuel_top_speed_multiplier = 1.3,
+		fuel_emissions_multiplier = 0.75,
+		weight = 50*kg,
 		icon = "__tungsten-cube__/icons/carbon_cube.png",
-		stack_size = 1,
+		stack_size = 20,
  		auto_recycle = true
 	},
 	{
@@ -268,7 +268,7 @@ data:extend({
 		weight = 100*kg,
 		icon = "__tungsten-cube__/icons/borrowed_icons/stone_cube1.png",
 		icon_size = 64,
-		stack_size = 1,
+		stack_size = 10,
  		auto_recycle = true
 	},
 	{
@@ -276,9 +276,9 @@ data:extend({
  		name = "concrete-cube",
 		subgroup = "cubes-subgroup",
 		weight = 100*kg,
-		icon = "__tungsten-cube__/icons/borrowed_icons/stone_cube1.png",
+		icon = "__tungsten-cube__/icons/concrete_cube.png",
 		icon_size = 64,
-		stack_size = 1,
+		stack_size = 10,
  		auto_recycle = true
 	}
 
