@@ -280,6 +280,16 @@ data:extend({
 		icon_size = 64,
 		stack_size = 10,
  		auto_recycle = true
+	},
+	{
+		type = "item",
+ 		name = "sulfur-cube",
+		subgroup = "cubes-subgroup",
+		weight = 100*kg,
+		icon = "__tungsten-cube__/icons/sulfur_cube.png",
+		icon_size = 64,
+		stack_size = 10,
+ 		auto_recycle = true
 	}
 
 

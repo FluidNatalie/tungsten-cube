@@ -11,7 +11,7 @@ data:extend({
   --order = "",
     stack_size = 50,
     weight = 20 * kg,
-    effect = {consumption = -1.0},
+    effect = {consumption = -1.0, pollution = 2.0,},
     beacon_tint =
     {
       primary = {0, 1, 0},

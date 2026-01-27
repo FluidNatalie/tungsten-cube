@@ -7,7 +7,7 @@ data:extend({
 		upgrade = true,
 		max_level = 30,
         enabled = true,
-		essential = true,
+		essential = false,
 		prerequisites = {"iron-and-copper-cube-unlock", "promethium-science-pack"},
 		effects = 
 		{
@@ -104,7 +104,7 @@ data:extend({
 		icon = "__tungsten-cube__/icons/cubes_group1.png",
 		icon_size = 128,
         enabled = true,
-		essential = true,
+		essential = false,
 		prerequisites = {"automation-science-pack"},
 		effects = 
 		{
@@ -133,7 +133,7 @@ data:extend({
  		name = "carbon-cube-unlock",
 		icon = "__tungsten-cube__/icons/carbon_cube.png",
         enabled = false, --disable until needed later
-		essential = true,
+		essential = false,
 		prerequisites = {"space-platform"},
 		effects = 
 		{
@@ -156,7 +156,7 @@ data:extend({
  		name = "holmium-cube-unlock",
 		icon = "__tungsten-cube__/icons/holmium_cube.png",
         enabled = false, --disable until needed later
-		essential = true,
+		essential = false,
 		prerequisites = {"holmium-processing"},
 		effects = 
 		{
@@ -181,7 +181,7 @@ data:extend({
 		icon = "__tungsten-cube__/icons/temp_icons/biter_egg_cube_alt.png",
 		icon_size = 128,
         enabled = false, --disable until needed later
-		essential = true,
+		essential = false,
 		prerequisites = {"captivity"},
 		effects = 
 		{
@@ -207,7 +207,7 @@ data:extend({
  		name = "u-235-cube-unlock",
 		icon = "__tungsten-cube__/icons/temp_icons/uranium235_cube.png",
         enabled = false, --disable until needed later
-		essential = true,
+		essential = false,
 		prerequisites = {"uranium-mining"},
 		effects = 
 		{
@@ -231,7 +231,7 @@ data:extend({
 		icon = "__tungsten-cube__/icons/plastic_cube.png",
 		icon_size = 64,
         enabled = true,
-		essential = true,
+		essential = false,
 		prerequisites = {"plastics"},
 		effects = 
 		{
@@ -254,7 +254,7 @@ data:extend({
 		icon = "__tungsten-cube__/icons/borrowed_icons/stone_cube1.png",
 		icon_size = 64,
         enabled = true,
-		essential = true,
+		essential = false,
 		hidden = false,
 		prerequisites = {},
 		effects = 
@@ -273,11 +273,11 @@ data:extend({
     },
 	{
  		type = "technology",
- 		name = "concrete-cube",
+ 		name = "concrete-cube-unlock",
 		icon = "__tungsten-cube__/icons/concrete_cube.png",
 		icon_size = 64,
         enabled = true,
-		essential = true,
+		essential = false,
 		hidden = false,
 		prerequisites = {"concrete"},
 		effects = 
@@ -304,7 +304,6 @@ data:extend({
 		icon_size = 256,
         enabled = true,
 		essential = true,
-		hidden = false,
 		prerequisites = {"stone-cube-unlock"},
 		effects = 
 		{
@@ -342,6 +341,28 @@ data:extend({
 			time = 30
 		}
     },
+	{
+ 		type = "technology",
+ 		name = "green-science-cube-unlock",
+		icon = "__tungsten-cube__/icons/flasks/tech_icons/cube_clear_green.png",
+		icon_size = 256,
+        enabled = true,
+		essential = true,
+		prerequisites = {"red-science-cube-unlock", "concrete-cube-unlock"},
+		effects = 
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "green-science-cube"
+			}
+		},
+		unit = 
+		{
+			count = 50,
+			ingredients = {	{"red-science-cube", 1} },
+			time = 30
+		}
+    },
 
 --Science Pack Rewards	
 
@@ -362,9 +383,8 @@ data:extend({
 		},
 		unit = 
 		{
-			count = 10,
-			ingredients = {	{"automation-science-pack", 5},
-							{"red-science-cube", 1} },
+			count = 50,
+			ingredients = { {"red-science-cube", 1} },
 			time = 30
 		}
     },

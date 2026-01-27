@@ -196,6 +196,40 @@ data:extend({
     },
 	{
  		type = "recipe",
+ 		name = "concrete-cube",
+		subgroup = "cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 10,
+ 		ingredients = {
+ 			{ type = "item", name = "concrete", amount = 100 }
+ 		},
+ 		results = {
+ 			{ type = "item", name = "concrete-cube", amount = 1 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
+    },
+	{
+ 		type = "recipe",
+ 		name = "sulfur-cube",
+		subgroup = "cubes-subgroup",
+ 		category = "chemistry",
+ 		energy_required = 30,
+		main_product = "sulfur-cube",
+ 		ingredients = {
+ 			{ type = "item", name = "sulfur", amount = 100 }
+ 		},
+ 		results = {
+ 			{ type = "item", name = "sulfur-cube", amount = 1 },
+			{ type = "fluid", name = "sulfuric-acid", amount = 100}
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
+    },
+	{
+ 		type = "recipe",
  		name = "stone-cube",
 		subgroup = "cubes-subgroup",
  		category = "crafting",
@@ -216,6 +250,7 @@ data:extend({
 		subgroup = "cubes-subgroup",
  		category = "crafting",
  		energy_required = 50,
+		main_product = "stone-cube",
  		ingredients = {
  			{ type = "item", name = "stone", amount = 450 },
 			{ type = "item", name = "calcite", amount = 50 } --change to calcite cube
@@ -239,27 +274,6 @@ data:extend({
  		},
  		results = {
  			{ type = "item", name = "empty-science-cube", amount = 1 },
- 		},
- 		hide_from_signal_gui = false,
- 		auto_recycle = true,
-        enabled = false
-    },
-	{
- 		type = "recipe",
- 		name = "red-science-cube",
-		subgroup = "science-cubes-subgroup",
- 		category = "crafting",
- 		energy_required = 50,
-		main_product = "red-science-cube",
- 		ingredients = {
- 			{ type = "item", name = "empty-science-cube", amount = 10 },
-			{ type = "item", name = "copper-cube", amount = 1 },
-			{ type = "item", name = "iron-cube", amount = 2 }
- 		},
- 		results = {
- 			{ type = "item", name = "red-science-cube", amount = 10 },
-			{ type = "item", name = "copper-cube", amount = 1, probability = 0.15 },
-			{ type = "item", name = "iron-cube", amount = 2, probability = 0.15 },
  		},
  		hide_from_signal_gui = false,
  		auto_recycle = true,
@@ -296,5 +310,50 @@ data:extend({
  		hide_from_signal_gui = false,
  		auto_recycle = true,
         enabled = true
+    },
+
+--Science Pack Recipes
+
+	{
+ 		type = "recipe",
+ 		name = "red-science-cube",
+		subgroup = "science-cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 50,
+		main_product = "red-science-cube",
+ 		ingredients = {
+ 			{ type = "item", name = "empty-science-cube", amount = 10 },
+			{ type = "item", name = "copper-cube", amount = 1 },
+			{ type = "item", name = "iron-cube", amount = 2 }
+ 		},
+ 		results = {
+ 			{ type = "item", name = "red-science-cube", amount = 10 },
+			{ type = "item", name = "copper-cube", amount = 1, probability = 0.15 },
+			{ type = "item", name = "iron-cube", amount = 2, probability = 0.15 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
+    },
+	{
+ 		type = "recipe",
+ 		name = "green-science-cube",
+		subgroup = "science-cubes-subgroup",
+ 		category = "crafting",
+ 		energy_required = 50,
+		main_product = "green-science-cube",
+ 		ingredients = {
+ 			{ type = "item", name = "empty-science-cube", amount = 10 },
+			{ type = "item", name = "efficiency-module-cube", amount = 1 },
+			{ type = "item", name = "concrete-cube", amount = 3 }
+ 		},
+ 		results = {
+ 			{ type = "item", name = "green-science-cube", amount = 10 },
+			{ type = "item", name = "efficiency-module-cube", amount = 1, probability = 0.15 },
+			{ type = "item", name = "concrete-cube", amount = 3, probability = 0.15 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
     },
 })
