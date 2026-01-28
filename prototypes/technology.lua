@@ -250,6 +250,29 @@ data:extend({
     },
 	{
  		type = "technology",
+ 		name = "sulfur-cube-unlock",
+		icon = "__tungsten-cube__/icons/sulfur_cube.png",
+		icon_size = 64,
+        enabled = true,
+		essential = false,
+		prerequisites = {"sulfur-processing", "green-science-cube-unlock"},
+		effects = 
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "sulfur-cube"
+			}
+		},
+		unit = 
+		{
+			count = 50,
+			ingredients = {	{"red-science-cube", 1},
+			 				{"green-science-cube", 1} },
+			time = 30
+		}
+    },
+	{
+ 		type = "technology",
  		name = "stone-cube-unlock",
 		icon = "__tungsten-cube__/icons/borrowed_icons/stone_cube1.png",
 		icon_size = 64,
@@ -363,6 +386,28 @@ data:extend({
 			time = 30
 		}
     },
+	{
+ 		type = "technology",
+ 		name = "blue-science-cube-unlock",
+		icon = "__tungsten-cube__/icons/flasks/tech_icons/cube_clear_cyan.png",
+		icon_size = 256,
+        enabled = true,
+		essential = true,
+		prerequisites = {"green-science-cube-unlock", "sulfur-cube-unlock", "plastic-cube-unlock", "lubricant"},
+		effects = 
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "blue-science-cube"
+			}
+		},
+		unit = 
+		{
+			count = 100,
+			ingredients = {	{"red-science-cube", 1}, {"green-science-cube", 1} },
+			time = 30
+		}
+    },
 
 --Science Pack Rewards	
 
@@ -372,7 +417,7 @@ data:extend({
 		icon = "__tungsten-cube__/icons/flasks/tech_icons/cube_clear_red.png",
 		icon_size = 256,
         enabled = true,
-		essential = true,
+		essential = false,
 		prerequisites = {"red-science-cube-unlock"},
 		effects = 
 		{

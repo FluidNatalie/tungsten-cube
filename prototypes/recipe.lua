@@ -356,4 +356,26 @@ data:extend({
  		auto_recycle = true,
         enabled = false
     },
+	{
+ 		type = "recipe",
+ 		name = "blue-science-cube",
+		subgroup = "science-cubes-subgroup",
+ 		category = "crafting-with-fluid",
+ 		energy_required = 50,
+		main_product = "blue-science-cube",
+ 		ingredients = {
+ 			{ type = "item", name = "empty-science-cube", amount = 10 },
+			{ type = "item", name = "plastic-cube", amount = 1 },
+			{ type = "item", name = "sulfur-cube", amount = 1 },
+			{ type = "fluid", name = "lubricant", amount = 100}
+ 		},
+ 		results = {
+ 			{ type = "item", name = "blue-science-cube", amount = 10 },
+			{ type = "item", name = "plastic-cube", amount = 1, probability = 0.15 },
+			{ type = "item", name = "sulfur-cube", amount = 1, probability = 0.15 },
+ 		},
+ 		hide_from_signal_gui = false,
+ 		auto_recycle = true,
+        enabled = false
+    },
 })
